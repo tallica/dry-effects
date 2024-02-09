@@ -3,7 +3,7 @@
 module Dry
   module Effects
     class Effect
-      extend Initializer
+      extend ::Dry::Effects::Initializer
 
       include ::Dry::Equalizer(:type, :name, :payload, :keywords)
 
